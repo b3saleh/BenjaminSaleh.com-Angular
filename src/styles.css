@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --color1: #F55;
+  --color2: #737373;
+  --color3: #2b2b2b;
+}
+
+.jumbotron{
+  background-position: center;
+  max-width: 1000px;
+  background-size: cover;
+  height: 90vh;
+  margin: auto;
+  padding: 2%;
+}
