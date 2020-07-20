@@ -1,0 +1,8 @@
+.jumbotron{
+  background-image: url('../img/Music.png');
+}
+
+.container-fluid{
+  text-align: center;
+  height: 100vh;
+}
