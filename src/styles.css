@@ -14,3 +14,8 @@
   margin: auto;
   padding: 2%;
 }
+
+img {
+  max-width: -webkit-fill-available;
+  border-radius: 25px;
+}
