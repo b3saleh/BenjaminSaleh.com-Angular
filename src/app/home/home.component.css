@@ -1,4 +1,26 @@
 .jumbotron{
   background-image: url('../img/Headshot.JPG');
   background-position: center top;
+  padding: 0;
+}
+
+.row{
+  margin-bottom: 50px;
+}
+
+.container{
+  margin-top: 50px;
+  max-width:1000px;
+}
+
+h1{
+  margin-bottom: 50px;
+}
+
+.backdrop{
+  background: rgba(255, 255, 255, 0.3);
+  width: 100vw;
+  max-width:1000px;
+  text-align: center;
+  padding: 5px;
 }

@@ -8,6 +8,8 @@ import { MusicComponent } from './music/music.component';
 import { FormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
 import { HairDressingComponent } from './hair-dressing/hair-dressing.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { HairDressingComponent } from './hair-dressing/hair-dressing.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
