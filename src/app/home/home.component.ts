@@ -26,7 +26,7 @@ import { trigger, state, style, transition, animate, group } from '@angular/anim
 export class HomeComponent implements OnInit {
   name = '';
   timer = 2;
-  titles = ['Electrical Engineer', 'Coach', 'System Designer', 'Hair Dresser', 'Data Scientist', 'Musician'];
+  titles = ['Electrical Engineer', 'Musician', 'System Designer', 'Hair Dresser', 'Data Scientist', 'Frisbee Coach'];
   currentTitle = 'Electrical Engineer';
   iterator = 0;
   isOn = 1;
